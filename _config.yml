@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhuohang Bian"
-description              : "Systems researcher working on efficient LLM inference, agent systems, and computer architecture."
+description              : "Efficient LLM inference, agent systems, and computer architecture."
 url                      : "https://zhhangbian.github.io"
 repository               : "zhhangBian/zhhangBian.github.io"
 google_scholar_stats_use_cdn : false
@@ -24,13 +24,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhuohang Bian"
-  avatar           : "images/headshot.jpg"
-  bio              : "Systems and AI researcher"
+  avatar           : "images/headshot-square.jpg"
+  bio              : "Peking University"
   location         : "Beijing, China"
-  employer         : "Beihang University"
+  employer         :
   pubmed           : 
   googlescholar    :
   email            : "bianzhuohang26@stu.pku.edu.cn"
+  cv               : "https://zhhangbian.github.io/CV/cv_en.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
