@@ -58,7 +58,23 @@ $(document).ready(function(){
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  $("a").smoothScroll({
+    offset: -20,
+    beforeScroll: function(options) {
+      options.offset = -($(".masthead").outerHeight() || 0) - 12;
+    },
+    afterScroll: function() {
+      if (!this.hash || !window.history || !window.history.pushState) {
+        return;
+      }
+
+      if (window.location.hash === this.hash) {
+        window.history.replaceState(null, document.title, this.hash);
+      } else {
+        window.history.pushState(null, document.title, this.hash);
+      }
+    }
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

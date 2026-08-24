@@ -12,6 +12,14 @@ var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
+function setNavState(isOpen) {
+  $hlinks.toggleClass('hidden', !isOpen);
+  $btn
+    .toggleClass('close', isOpen)
+    .attr('aria-expanded', isOpen ? 'true' : 'false')
+    .attr('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+}
+
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
@@ -44,7 +52,7 @@ function updateNav() {
     // Hide the dropdown btn if hidden list is empty
     if(breaks.length < 1) {
       $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
+      setNavState(false);
     }
   }
 
@@ -65,8 +73,11 @@ $(window).resize(function() {
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
+  setNavState($hlinks.hasClass('hidden'));
+});
+
+$hlinks.on('click', 'a', function() {
+  setNavState(false);
 });
 
 updateNav();
