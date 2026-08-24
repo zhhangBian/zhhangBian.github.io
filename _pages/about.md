@@ -16,6 +16,7 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 🔥 News {#news}
 
+- *2026.08*: 🎤 I am serving as the chair for one of the tutorials at **APPT**.
 - *2026.08*: 🎉 **TokenCake** was accepted to **EuroSys 2027**.
 - *2026.04*: 🚀 We released [**TokenDance**](https://arxiv.org/pdf/2604.03143), a system for collective KV cache sharing in multi-agent LLM serving.
 - *2025.10*: 💻 I completed a systems internship at SenseTime, with six pull requests merged into [LightLLM](https://github.com/ModelTC/LightLLM).
@@ -79,6 +80,10 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 - *2026 - now*, Ph.D. Student, Electronic Design Automation and Computing Systems, School of Integrated Circuits, Peking University
 - *2022 - 2026*, B.Eng. in Computer Science and Technology, School of Computer Science and Engineering, Beihang University
+
+## 🤝 Service {#service}
+
+- **Tutorial Chair**, APPT (one conference tutorial)
 
 ## Teaching
 
