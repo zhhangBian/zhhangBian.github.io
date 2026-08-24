@@ -87,12 +87,12 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 - **Tutorial Chair**, APPT\\
   *T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design*
 
-## Teaching
+## 👨‍🏫 Teaching {#teaching}
 
 - Advanced Teaching Assistant, Computer Organization, Beihang University
 - Teaching Assistant, Operating Systems, Beihang University
 
-## Skills
+## 🧰 Skills {#skills}
 
 - **Programming:** Python, C++, CUDA, SystemVerilog
 - **Systems:** LLM serving, distributed inference, processor design, reinforcement-learning experiment platforms
