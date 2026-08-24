@@ -16,7 +16,8 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 🔥 News {#news}
 
-- *2026.08*: 🎤 I am serving as the chair for one of the tutorials at **APPT**.
+- *2026.08*: 🎉 **TokenSimV2: Accurate and Fast Modeling for LLM Inference on GPUs** was accepted to **APPT**.
+- *2026.08*: 🎤 I am serving as the chair of the APPT tutorial **T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**.
 - *2026.08*: 🎉 **TokenCake** was accepted to **EuroSys 2027**.
 - *2026.04*: 🚀 We released [**TokenDance**](https://arxiv.org/pdf/2604.03143), a system for collective KV cache sharing in multi-agent LLM serving.
 - *2025.10*: 💻 I completed a systems internship at SenseTime, with six pull requests merged into [LightLLM](https://github.com/ModelTC/LightLLM).
@@ -83,7 +84,8 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 🤝 Service {#service}
 
-- **Tutorial Chair**, APPT (one conference tutorial)
+- **Tutorial Chair**, APPT\\
+  *T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design*
 
 ## Teaching
 
