@@ -22,7 +22,7 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 - *2026.04*: 🚀 We released [**TokenDance**](https://arxiv.org/pdf/2604.03143), a system for collective KV cache sharing in multi-agent LLM serving.
 - *2025.10*: 💻 I completed a systems internship at SenseTime, with six pull requests merged into [LightLLM](https://github.com/ModelTC/LightLLM).
 
-## 📝 Selected Publications {#selected-publications}
+## 📝 Publications {#selected-publications}
 
 - **TokenCake: A KV-Cache-centric Serving Framework for LLM-based Multi-Agent Applications**\\
   **<u>Zhuohang Bian</u>**, Feiyang Wu, Zhuoran Li, Teng Ma, Youwei Zhuo\\
@@ -34,9 +34,34 @@ My research interests center on efficient LLM inference systems, multi-agent wor
   **_Preprint_**\\
   [[paper](https://arxiv.org/pdf/2604.03143)]
 
+- **A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving**\\
+  Zhuoran Li, **<u>Zhuohang Bian</u>**, Xin Huang, Yibo Zhao, Guangyu Sun, Youwei Zhuo\\
+  **_Preprint_**\\
+  [[paper](https://arxiv.org/pdf/2608.11668)]
+
+- **TokenStack: A Heterogeneous HBM-PIM Architecture and Runtime for Efficient LLM Inference**\\
+  Zhuoran Li, **<u>Zhuohang Bian</u>**, Zihao Huang, Yibo Zhao, Xueqi Li, Guangyu Sun, Youwei Zhuo\\
+  **_Preprint_**\\
+  [[paper](https://arxiv.org/pdf/2605.05639)]
+
+- **MammoExpert: Benchmarking Chain-of-Thought Reasoning in Mammography Diagnosis**\\
+  Di Dai, Bo Liu, Youcheng Li, Haojun Yu, **<u>Zhuohang Bian</u>**, Quanlin Wu, Dong Wang, Sichen Meng, Hongye Xuan, Zijie Lan, Shenda Hong, Liwei Wang\\
+  **_KDD 2026_**\\
+  [[paper](https://arxiv.org/pdf/2606.21119)]
+
+- **Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**\\
+  Feiyang Wu, Xuxiao Yang, **<u>Zhuohang Bian</u>**, Jing Wang, Ruifan Xu, Guangyu Sun, Yun Liang, Youwei Zhuo\\
+  **_ISCA 2026_**\\
+  [[paper](https://doi.org/10.1109/ISCA66397.2026.00064)]
+
+- **Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning**\\
+  Simin Li, Zihao Mao, Hanxiao Li, Zonglei Jing, **<u>Zhuohang Bian</u>**, Jun Guo, Li Wang, Zhuoran Han, Ruixiao Xu, Xin Yu, Chengdong Ma, Yuqing Ma, Bo An, Yaodong Yang, Weifeng Lv, Xianglong Liu\\
+  **_NeurIPS 2025_**\\
+  [[paper](https://arxiv.org/pdf/2510.11824)] [[code](https://github.com/BUAA-TrustworthyMARL/adv_marl_benchmark)]
+
 - **TokenSim: Enabling Hardware and Software Exploration for Large Language Model Inference Systems**\\
   Feiyang Wu, **<u>Zhuohang Bian</u>**, Guoyang Duan, Tianle Xu, Junchi Wu, Teng Ma, Yongqiang Yao, Ruihao Gong, Youwei Zhuo\\
-  **_Preprint_**\\
+  **_APPT 2025_**\\
   [[paper](https://arxiv.org/pdf/2503.08415)]
 
 ## 🔬 Research Experience {#research-experience}
