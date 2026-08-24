@@ -16,11 +16,13 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 🔥 News {#news}
 
-- *2026.08*: 🎉 **TokenSimV2: Accurate and Fast Modeling for LLM Inference on GPUs** was accepted to **APPT**.
-- *2026.08*: 🎤 I am serving as the chair of the APPT tutorial **T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**.
 - *2026.08*: 🎉 **TokenCake** was accepted to **EuroSys 2027**.
+- *2026.08*: 🎤 I am serving as the chair of the APPT tutorial **T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**.
+- *2026.07*: 🎉 **TokenSimV2: Accurate and Fast Modeling for LLM Inference on GPUs** was accepted to **APPT**.
+- *2026.06*: 🏆 I was awarded the title of **Outstanding Graduate of Beijing** (北京市优秀毕业生).
 - *2026.04*: 🚀 We released [**TokenDance**](https://arxiv.org/pdf/2604.03143), a system for collective KV cache sharing in multi-agent LLM serving.
 - *2025.10*: 💻 I completed a systems internship at SenseTime, with six pull requests merged into [LightLLM](https://github.com/ModelTC/LightLLM).
+- *2025.09*: 🎓 I was admitted to the Ph.D. program at the School of Integrated Circuits, Peking University.
 
 ## 📝 Publications {#selected-publications}
 
@@ -44,30 +46,30 @@ My research interests center on efficient LLM inference systems, multi-agent wor
   **_Preprint_**\\
   [[paper](https://arxiv.org/pdf/2605.05639)]
 
-- **MammoExpert: Benchmarking Chain-of-Thought Reasoning in Mammography Diagnosis**\\
-  Di Dai, Bo Liu, Youcheng Li, Haojun Yu, **<u>Zhuohang Bian</u>**, Quanlin Wu, Dong Wang, Sichen Meng, Hongye Xuan, Zijie Lan, Shenda Hong, Liwei Wang\\
-  **_KDD 2026_**\\
-  [[paper](https://arxiv.org/pdf/2606.21119)]
-
 - **Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**\\
   Feiyang Wu, Xuxiao Yang, **<u>Zhuohang Bian</u>**, Jing Wang, Ruifan Xu, Guangyu Sun, Yun Liang, Youwei Zhuo\\
   **_ISCA 2026_**\\
   [[paper](https://doi.org/10.1109/ISCA66397.2026.00064)]
-
-- **Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning**\\
-  Simin Li, Zihao Mao, Hanxiao Li, Zonglei Jing, **<u>Zhuohang Bian</u>**, Jun Guo, Li Wang, Zhuoran Han, Ruixiao Xu, Xin Yu, Chengdong Ma, Yuqing Ma, Bo An, Yaodong Yang, Weifeng Lv, Xianglong Liu\\
-  **_NeurIPS 2025_**\\
-  [[paper](https://arxiv.org/pdf/2510.11824)] [[code](https://github.com/BUAA-TrustworthyMARL/adv_marl_benchmark)]
 
 - **TokenSim: Enabling Hardware and Software Exploration for Large Language Model Inference Systems**\\
   Feiyang Wu, **<u>Zhuohang Bian</u>**, Guoyang Duan, Tianle Xu, Junchi Wu, Teng Ma, Yongqiang Yao, Ruihao Gong, Youwei Zhuo\\
   **_APPT 2025_**\\
   [[paper](https://arxiv.org/pdf/2503.08415)]
 
+- **MammoExpert: Benchmarking Chain-of-Thought Reasoning in Mammography Diagnosis**\\
+  Di Dai, Bo Liu, Youcheng Li, Haojun Yu, **<u>Zhuohang Bian</u>**, Quanlin Wu, Dong Wang, Sichen Meng, Hongye Xuan, Zijie Lan, Shenda Hong, Liwei Wang\\
+  **_KDD 2026_**\\
+  [[paper](https://arxiv.org/pdf/2606.21119)]
+
+- **Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning**\\
+  Simin Li, Zihao Mao, Hanxiao Li, Zonglei Jing, **<u>Zhuohang Bian</u>**, Jun Guo, Li Wang, Zhuoran Han, Ruixiao Xu, Xin Yu, Chengdong Ma, Yuqing Ma, Bo An, Yaodong Yang, Weifeng Lv, Xianglong Liu\\
+  **_NeurIPS 2025_**\\
+  [[paper](https://arxiv.org/pdf/2510.11824)] [[code](https://github.com/BUAA-TrustworthyMARL/adv_marl_benchmark)]
+
 ## 🔬 Research Experience {#research-experience}
 
 - **Peking University, School of Integrated Circuits**\\
-  *Research Assistant, Prof. Youwei Zhuo's Group, Feb 2025 - Present*\\
+  *Research Assistant, [Prof. Youwei Zhuo's Group](https://www.youwei.xyz/), Feb 2025 - Present*\\
   I lead research on KV-cache-centric serving for multi-agent LLM applications. TokenCake combines agent-aware scheduling and memory management, while TokenDance introduces collective KV cache sharing and block-sparse diff storage.
 
 - **State Key Laboratory of Complex & Critical Software Environment, Beihang University**\\
@@ -94,13 +96,19 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 🏅 Honors and Awards {#honors-and-awards}
 
-- **First Prize**, China Undergraduate Mathematical Contest in Modeling
-- **4th Place / Second Prize**, Loongson Cup CPU Track
-- **First Prize**, Physics Competition
-- **AVIC Scholarship**
-- **BUAA Academic Excellence Scholarship, First Prize**
-- **Competition Scholarship, Top Prize**
-- **Innovation and Entrepreneurship Scholarship, Second Prize**
+- **Outstanding Graduate of Beijing** — Beijing Municipal Education Commission, 2026
+- **First Prize, China Undergraduate Mathematical Contest in Modeling** — National Level, China Society for Industrial and Applied Mathematics, Nov 2024 (Team Award)
+- **4th Place / Second Prize, Loongson Cup CPU Track** — National College Student Computer System Ability Competition, Aug 2024 (Team Award)
+- **First Prize (Meritorious Winner), International Mathematical Contest in Modeling** — The Consortium for Mathematics and its Applications, May 2024 (Team Award)
+- **Second Prize, National College Student Computer System Ability Competition** — National Association of Computer Education in Colleges and Universities, Aug 2025 (Team Award)
+- **First Prize, Physics Competition** — Beijing Physical Society, Dec 2023
+- **AVIC Scholarship** — Aviation Industry Corporation of China
+- **BUAA Academic Excellence Scholarship, First Prize** — Beihang University
+- **Competition Scholarship, Top Prize** — Beihang University
+- **Innovation and Entrepreneurship Scholarship, Second Prize** — Beihang University
+- **Outstanding Student Leader of Beihang University** (2023, 2024, 2025)
+- **Outstanding League Cadre of Beihang University** 
+- **Outstanding Student of Beihang University**
 
 ## 🎓 Education {#education}
 
@@ -114,8 +122,9 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 
 ## 👨‍🏫 Teaching {#teaching}
 
-- Advanced Teaching Assistant, Computer Organization, Beihang University
-- Teaching Assistant, Operating Systems, Beihang University
+- Advanced Teaching Assistant, Computer Organization, Beihang University, 2025/1-2025/12
+- Teaching Assistant, Operating Systems, Beihang University, 2024/09-2025/06
+- Teaching Assistant, Computer Organization, Beihang University, 2024/07-2024/12
 
 ## 🧰 Skills {#skills}
 
