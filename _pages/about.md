@@ -14,7 +14,7 @@ I'm Zhuohang Bian (卞卓航), a Ph.D. student at the [School of Integrated Circ
 
 My research interests center on efficient LLM inference systems, multi-agent workloads, computer architecture, and hardware-software co-design. I am currently working with Prof. Youwei Zhuo on agent systems. If you are interested in potential collaborations or would like to discuss anything, please feel free to reach out by email. Here is my [CV](https://zhhangbian.github.io/CV/cv_en.pdf).
 
-## 🔥 News {#news}
+# 🔥 News {#news}
 
 - *2026.08*: 🎉 **TokenCake** was accepted to **EuroSys 2027**.
 - *2026.08*: 🎤 I am serving as the chair of the APPT tutorial **T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**.
@@ -24,69 +24,62 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 - *2025.10*: 💻 I completed a systems internship at SenseTime, with six pull requests merged into [LightLLM](https://github.com/ModelTC/LightLLM).
 - *2025.09*: 🎓 I was admitted to the Ph.D. program at the School of Integrated Circuits, Peking University.
 
-## 📝 Publications {#selected-publications}
+# 🎓 Education {#education}
 
-- **TokenCake: A KV-Cache-centric Serving Framework for LLM-based Multi-Agent Applications**\\
+- <span class="timeline-date">2026 - Present</span>, **Peking University**, School of Integrated Circuits <span class="timeline-role">Ph.D. Student in Electronic Design Automation and Computing Systems</span>
+- <span class="timeline-date">2022 - 2026</span>, **Beihang University**, School of Computer Science and Engineering <span class="timeline-role">B.Eng. in Computer Science and Technology</span>
+{: .timeline-list }
+
+# 💼 Experiences {#experiences}
+
+- <span class="timeline-date">Feb 2025 - Present</span>, **Peking University, School of Integrated Circuits** <span class="timeline-role">Research Assistant</span>\\
+  <span class="timeline-description">Working with [Prof. Youwei Zhuo's Group](https://www.youwei.xyz/), I lead research on KV-cache-centric serving for multi-agent LLM applications. TokenCake combines agent-aware scheduling and memory management, while TokenDance introduces collective KV cache sharing and block-sparse diff storage.</span>
+
+- <span class="timeline-date">Jun 2025 - Oct 2025</span>, **SenseTime - LightLLM** <span class="timeline-role">Systems Research Intern</span>\\
+  <span class="timeline-description">I worked on prefill-decode disaggregated scheduling, memory-aware routing, cross-GPU KV cache migration, and MinerU2 multimodal model support. Six public pull requests were merged: [#944](https://github.com/ModelTC/LightLLM/pull/944), [#970](https://github.com/ModelTC/LightLLM/pull/970), [#999](https://github.com/ModelTC/LightLLM/pull/999), [#1011](https://github.com/ModelTC/LightLLM/pull/1011), [#1024](https://github.com/ModelTC/LightLLM/pull/1024), and [#1034](https://github.com/ModelTC/LightLLM/pull/1034).</span>
+
+- <span class="timeline-date">Jul 2024 - Jan 2025</span>, **State Key Laboratory of Complex & Critical Software Environment, Beihang University** <span class="timeline-role">Research Assistant</span>\\
+  <span class="timeline-description">Working with Prof. Xianglong Liu's Group, I built AMB, a robustness benchmark covering four real-world environments, 13 uncertainty types, 15 key hyperparameters, and 82,620 experiments for cooperative multi-agent reinforcement learning.</span>
+
+- <span class="timeline-date">Sep 2023 - May 2024</span>, **Sino-German Joint Software Institute, Beihang University** <span class="timeline-role">Research Assistant</span>\\
+  <span class="timeline-description">Working with Prof. Zhongzhi Luan's Group, I optimized multi-head attention for the MT-3000 CPU-DSP heterogeneous processor with matrix tiling, DMA double buffering, communication optimization, and head-level operator scheduling.</span>
+{: .timeline-list }
+
+# 📝 Publications {#selected-publications}
+
+- <span class="venue-badge venue-badge--published">EuroSys 2027</span> **TokenCake: A KV-Cache-centric Serving Framework for LLM-based Multi-Agent Applications**\\
   **<u>Zhuohang Bian</u>**, Feiyang Wu, Zhuoran Li, Teng Ma, Youwei Zhuo\\
-  **_EuroSys 2027_**\\
   [[paper](https://arxiv.org/pdf/2510.18586)]
 
-- **TokenDance: Scaling Multi-Agent LLM Serving via Collective KV Cache Sharing**\\
+- <span class="venue-badge venue-badge--preprint">Preprint</span> **TokenDance: Scaling Multi-Agent LLM Serving via Collective KV Cache Sharing**\\
   **<u>Zhuohang Bian</u>**, Feiyang Wu, Chengrui Zhang, Hangcheng Dong, Yun Liang, Youwei Zhuo\\
-  **_Preprint_**\\
   [[paper](https://arxiv.org/pdf/2604.03143)]
 
-- **A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving**\\
+- <span class="venue-badge venue-badge--preprint">Preprint</span> **A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving**\\
   Zhuoran Li, **<u>Zhuohang Bian</u>**, Xin Huang, Yibo Zhao, Guangyu Sun, Youwei Zhuo\\
-  **_Preprint_**\\
   [[paper](https://arxiv.org/pdf/2608.11668)]
 
-- **TokenStack: A Heterogeneous HBM-PIM Architecture and Runtime for Efficient LLM Inference**\\
+- <span class="venue-badge venue-badge--preprint">Preprint</span> **TokenStack: A Heterogeneous HBM-PIM Architecture and Runtime for Efficient LLM Inference**\\
   Zhuoran Li, **<u>Zhuohang Bian</u>**, Zihao Huang, Yibo Zhao, Xueqi Li, Guangyu Sun, Youwei Zhuo\\
-  **_Preprint_**\\
   [[paper](https://arxiv.org/pdf/2605.05639)]
 
-- **Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**\\
+- <span class="venue-badge venue-badge--published">ISCA 2026</span> **Graph.hls: A Compiler Framework for Composable Graph Accelerator Design**\\
   Feiyang Wu, Xuxiao Yang, **<u>Zhuohang Bian</u>**, Jing Wang, Ruifan Xu, Guangyu Sun, Yun Liang, Youwei Zhuo\\
-  **_ISCA 2026_**\\
   [[paper](https://doi.org/10.1109/ISCA66397.2026.00064)]
 
-- **TokenSim: Enabling Hardware and Software Exploration for Large Language Model Inference Systems**\\
+- <span class="venue-badge venue-badge--published">APPT 2025</span> **TokenSim: Enabling Hardware and Software Exploration for Large Language Model Inference Systems**\\
   Feiyang Wu, **<u>Zhuohang Bian</u>**, Guoyang Duan, Tianle Xu, Junchi Wu, Teng Ma, Yongqiang Yao, Ruihao Gong, Youwei Zhuo\\
-  **_APPT 2025_**\\
   [[paper](https://arxiv.org/pdf/2503.08415)]
 
-- **MammoExpert: Benchmarking Chain-of-Thought Reasoning in Mammography Diagnosis**\\
+- <span class="venue-badge venue-badge--published">KDD 2026</span> **MammoExpert: Benchmarking Chain-of-Thought Reasoning in Mammography Diagnosis**\\
   Di Dai, Bo Liu, Youcheng Li, Haojun Yu, **<u>Zhuohang Bian</u>**, Quanlin Wu, Dong Wang, Sichen Meng, Hongye Xuan, Zijie Lan, Shenda Hong, Liwei Wang\\
-  **_KDD 2026_**\\
   [[paper](https://arxiv.org/pdf/2606.21119)]
 
-- **Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning**\\
+- <span class="venue-badge venue-badge--published">NeurIPS 2025</span> **Empirical Study on Robustness and Resilience in Cooperative Multi-Agent Reinforcement Learning**\\
   Simin Li, Zihao Mao, Hanxiao Li, Zonglei Jing, **<u>Zhuohang Bian</u>**, Jun Guo, Li Wang, Zhuoran Han, Ruixiao Xu, Xin Yu, Chengdong Ma, Yuqing Ma, Bo An, Yaodong Yang, Weifeng Lv, Xianglong Liu\\
-  **_NeurIPS 2025_**\\
   [[paper](https://arxiv.org/pdf/2510.11824)] [[code](https://github.com/BUAA-TrustworthyMARL/adv_marl_benchmark)]
 
-## 🔬 Research Experience {#research-experience}
-
-- **Peking University, School of Integrated Circuits**\\
-  *Research Assistant, [Prof. Youwei Zhuo's Group](https://www.youwei.xyz/), Feb 2025 - Present*\\
-  I lead research on KV-cache-centric serving for multi-agent LLM applications. TokenCake combines agent-aware scheduling and memory management, while TokenDance introduces collective KV cache sharing and block-sparse diff storage.
-
-- **State Key Laboratory of Complex & Critical Software Environment, Beihang University**\\
-  *Research Assistant, Prof. Xianglong Liu's Group, Jul 2024 - Jan 2025*\\
-  I built AMB, a robustness benchmark covering four real-world environments, 13 uncertainty types, 15 key hyperparameters, and 82,620 experiments for cooperative multi-agent reinforcement learning.
-
-- **Sino-German Joint Software Institute, Beihang University**\\
-  *Research Assistant, Prof. Zhongzhi Luan's Group, Sep 2023 - May 2024*\\
-  I optimized multi-head attention for the MT-3000 CPU-DSP heterogeneous processor with matrix tiling, DMA double buffering, communication optimization, and head-level operator scheduling.
-
-## 💼 Industry Experience {#industry-experience}
-
-- **SenseTime - LightLLM**\\
-  *Systems Research Intern, Jun 2025 - Oct 2025*\\
-  I worked on prefill-decode disaggregated scheduling, memory-aware routing, cross-GPU KV cache migration, and MinerU2 multimodal model support. Six public pull requests were merged: [#944](https://github.com/ModelTC/LightLLM/pull/944), [#970](https://github.com/ModelTC/LightLLM/pull/970), [#999](https://github.com/ModelTC/LightLLM/pull/999), [#1011](https://github.com/ModelTC/LightLLM/pull/1011), [#1024](https://github.com/ModelTC/LightLLM/pull/1024), and [#1034](https://github.com/ModelTC/LightLLM/pull/1034).
-
-## 🛠️ Selected Projects {#selected-projects}
+# 🛠️ Projects {#selected-projects}
 
 - **Out-of-order LoongArch Processor**\\
   I implemented key backend modules for a 13-stage dual-issue superscalar processor supporting LoongArch32R. The processor boots Linux, reached 80 MHz on FPGA, and placed fourth nationally in the 2024 Loongson Cup CPU Track. [[code](https://github.com/zhhangBian/BOOM_chip)]
@@ -94,7 +87,7 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 - **Compiler Course Infrastructure**\\
   I developed a compiler course project that was adopted as a teaching example in national compiler-course teacher training. [[code](https://github.com/zhhangBian/Compiler-Techniques)]
 
-## 🏅 Honors and Awards {#honors-and-awards}
+# 🏅 Awards {#honors-and-awards}
 
 - **Outstanding Graduate of Beijing** — Beijing Municipal Education Commission, 2026
 - **First Prize, China Undergraduate Mathematical Contest in Modeling** — National Level, China Society for Industrial and Applied Mathematics, Nov 2024 (Team Award)
@@ -110,24 +103,21 @@ My research interests center on efficient LLM inference systems, multi-agent wor
 - **Outstanding League Cadre of Beihang University** 
 - **Outstanding Student of Beihang University**
 
-## 🎓 Education {#education}
-
-- *2026 - now*, Ph.D. Student, Electronic Design Automation and Computing Systems, School of Integrated Circuits, Peking University
-- *2022 - 2026*, B.Eng. in Computer Science and Technology, School of Computer Science and Engineering, Beihang University
-
-## 🤝 Service {#service}
+# 🤝 Service {#service}
 
 - **Tutorial Chair**, APPT\\
   *T2: Graph.hls: A Compiler Framework for Composable Graph Accelerator Design*
 
-## 👨‍🏫 Teaching {#teaching}
+# 👨‍🏫 Teaching {#teaching}
 
 - Advanced Teaching Assistant, Computer Organization, Beihang University, 2025/1-2025/12
 - Teaching Assistant, Operating Systems, Beihang University, 2024/09-2025/06
 - Teaching Assistant, Computer Organization, Beihang University, 2024/07-2024/12
 
-## 🧰 Skills {#skills}
+{% comment %}
+# 🧰 Skills {#skills}
 
 - **Programming:** Python, C++, CUDA, SystemVerilog
 - **Systems:** LLM serving, distributed inference, processor design, reinforcement-learning experiment platforms
 - **English:** CET-6
+{% endcomment %}

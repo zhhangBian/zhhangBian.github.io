@@ -94,6 +94,11 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
+.page__content h1,
+.page__content .anchor {
+    scroll-margin-top: 4.5em;
+}
+
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -103,4 +108,58 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.timeline-list {
+    margin-top: .35em;
+
+    > li {
+        margin-bottom: .75em;
+    }
+}
+
+.timeline-date {
+    font-style: italic;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.timeline-role {
+    display: inline-block;
+    margin: .1em 0 .1em .25em;
+    padding: .05em .4em;
+    border: 1px solid $lighter-gray;
+    border-radius: 3px;
+    background-color: $code-background-color;
+    box-shadow: $box-shadow;
+    font-family: $monospace;
+    font-size: .9em;
+    line-height: 1.35;
+    vertical-align: baseline;
+}
+
+.timeline-description {
+    display: inline-block;
+    margin-top: .2em;
+}
+
+.venue-badge {
+    display: inline-block;
+    margin: 0 .35em .15em 0;
+    padding: .12em .45em;
+    border-radius: 3px;
+    color: #fff;
+    font-size: .78em;
+    font-weight: 700;
+    line-height: 1.35;
+    vertical-align: .08em;
+    white-space: nowrap;
+}
+
+.venue-badge--published {
+    background-color: #9b565f;
+}
+
+.venue-badge--preprint {
+    background-color: #4e796d;
 }
